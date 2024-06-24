@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/nsf_logo"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/nsf_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:elevation="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nsf_logo"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loading" />
+
+    <!--    <com.google.android.material.textfield.TextInputLayout-->
+    <!--        android:id="@+id/et_ip_layout"-->
+    <!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="45dp"-->
+    <!--        android:layout_marginTop="50dp"-->
+    <!--        android:layout_marginEnd="45dp"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/nsf_logo">-->
+
+    <!--        <com.google.android.material.textfield.TextInputEditText-->
+    <!--            android:id="@+id/et_ip"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:drawableStart="@drawable/baseline_dataset"-->
+    <!--            android:drawablePadding="10dp"-->
+    <!--            android:hint="@string/server_ip_address"-->
+    <!--            android:inputType="text"-->
+    <!--            android:textSize="16sp" />-->
+
+    <!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <!--    <androidx.appcompat.widget.AppCompatButton-->
+    <!--        android:id="@+id/btn_submit_ip"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:background="@drawable/button_background"-->
+    <!--        android:letterSpacing="0.2"-->
+    <!--        android:paddingStart="30dp"-->
+    <!--        android:paddingEnd="30dp"-->
+    <!--        android:text="@string/submit_ip_address"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        android:textSize="16sp"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@id/et_ip_layout" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

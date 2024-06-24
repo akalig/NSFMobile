@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">NSF Mobile</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_delivery_receipt">Create Delivery Receipt</string>
+    <string name="delivery_receipt_number">Delivery Receipt Number</string>
+    <string name="enter_delivery_receipt_no">Enter Delivery Receipt No.</string>
+    <string name="truck_plate_number">Truck Plate Number</string>
+    <string name="agent">Agent</string>
+    <string name="next">Next</string>
+    <string name="customer_list">Customer List</string>
+    <string name="booking_number">Booking Number</string>
+    <string name="customer_name">Customer Name</string>
+    <string name="sample">Sample</string>
+    <string name="booking_number_label">Booking Number:</string>
+    <string name="customer_name_label">Customer Name:</string>
+    <string name="price">Price:</string>
+    <string name="booking_no">Booking No.:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="delivery_receipt_no">Delivery Receipt No.:</string>
+    <string name="truck_plate_no">Truck Plate No.:</string>
+    <string name="agent_name">Agent Name:</string>
+    <string name="catch_weight">Catch Weight</string>
+    <string name="input_catch_weight">Input Catch Weight</string>
+    <string name="_1">1</string>
+    <string name="save">Save</string>
+    <string name="server_ip_address">Server IP Address</string>
+    <string name="submit_ip_address">Submit Ip Address</string>
+    <string name="p_o_number">P.O. Number</string>
+    <string name="product_description">Product Description</string>
+    <string name="type">Type:</string>
+    <string name="standard">Standard</string>
+    <string name="quantity_text">Quantity:</string>
+    <string name="enter_quantity">Enter Quantity</string>
+    <string name="type_label">Type:</string>
+
+    <string-array name="truckPlateNo">
+        <item>▼ Select Truck Plate No.</item>
+        <item>TPN-123</item>
+        <item>TPN-321</item>
+    </string-array>
+
+    <string-array name="agent">
+        <item>▼ Select Agent</item>
+        <item>MAGLALANG, JERICK U</item>
+        <item>DELA CRUZ, JUAN C</item>
+    </string-array>
+</resources>
